@@ -39,7 +39,7 @@ SISS-OpenSource-Audit/ <br>
 
 | 단계 | 내용 | 산출물 |
 |------|------|--------|
-| ① 타깃 선정 | 관심 있는 오픈소스 선택 (예: Bandit, mitmproxy, osquery 등) | 레포 URL |
+| ① 타깃 선정 | 관심 있는 오픈소스 선택 (Go Ethereum (Geth)) | 레포 URL |
 | ② 커밋 수집 | `git log --grep='security\|vuln\|fix' -i` 명령으로 관련 커밋 확인 | 커밋 리스트 |
 | ③ 오답노트 작성 | 주요 커밋별 보안 영향 분석 (diff, patch 내용 포함) | `/docs/오답노트/*.md` |
 | ④ 팀 리포트 통합 | 월별/분기별 산출물 정리 | `/report/YYYY_MM_SISS_Report.md` |
